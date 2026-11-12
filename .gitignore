@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+env/
+.venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models / artifacts
+*.pkl
+*.joblib
+
+# Temp / verification scripts
+verify_imports.py
+
+# Pre-existing unrelated projects in this folder
+ROCKPAPER/
+css/
+js/
